@@ -1,7 +1,7 @@
 later = function() {
   "use strict";
   var later = {
-    version: "1.2.0"
+    version: "1.2.666"
   };
   if (!Array.prototype.indexOf) {
     Array.prototype.indexOf = function(searchElement) {
@@ -1259,7 +1259,7 @@ later = function() {
       also: /(also)\b/,
       first: /^(first)\b/,
       last: /^last\b/,
-      "in": /^in\b/,
+      in: /^in\b/,
       of: /^of\b/,
       onthe: /^on the\b/,
       on: /^on\b/,
@@ -1292,7 +1292,7 @@ later = function() {
       "3rd": 3,
       thi: 3,
       "4th": 4,
-      "for": 4
+      for: 4
     };
     function t(start, end, text, type) {
       return {
